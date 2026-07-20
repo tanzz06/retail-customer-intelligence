@@ -1,11 +1,11 @@
-# 🛒 Retail Customer Intelligence
+#  Retail Customer Intelligence
 **YOLO Session — Project 4 | Business Analytics & Store Insights**
 
 A real-time computer vision system that analyses supermarket footage and gives store managers actionable insights — who's in the store, where they go, how long they stay, and which areas get the most traffic. Built with a pretrained YOLO model and ByteTrack. No custom training.
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 | Early frames | Mid video | Late video |
 |:---:|:---:|:---:|
@@ -13,7 +13,7 @@ A real-time computer vision system that analyses supermarket footage and gives s
 
 ---
 
-## 🔥 Zone Heatmap
+##  Zone Heatmap
 
 <img src="assets/zone_heatmap.png" width="320"/>
 
@@ -21,7 +21,7 @@ Blue = low traffic · Red = highest traffic. Clear hotspot centre-left, matching
 
 ---
 
-## 📈 Store Occupancy Over Time
+##  Store Occupancy Over Time
 
 <img src="assets/occupancy_over_time.png" width="720"/>
 
@@ -29,7 +29,7 @@ Quiet for the first 6 seconds. Clearly busiest in the final 8 seconds, peaking a
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 ```
 Video input
@@ -47,7 +47,7 @@ Live dashboard overlay + annotated video saved to disk
 
 ---
 
-## 🚀 Setup & Run
+##  Setup & Run
 
 **Install dependencies:**
 ```bash
@@ -67,7 +67,7 @@ A live preview window opens. When finished, these files are saved:
 
 ---
 
-## 🗂️ File Structure
+##  File Structure
 
 ```
 retail_folder/
@@ -86,7 +86,7 @@ retail_folder/
 
 ---
 
-## 🎨 Key Design Decisions
+##  Key Design Decisions
 
 ### Zones — why camera-relative?
 
@@ -130,7 +130,7 @@ Occupancy weighted highest — foot traffic is the first thing a manager asks ab
 
 ---
 
-## 📊 Final Results
+##  Final Results
 
 ```
 Video:            30 seconds · 918 frames · 30fps · 1080×1920
@@ -149,7 +149,7 @@ Health Score:     65 / 100
 
 ---
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 | Limitation | Reason |
 |---|---|
@@ -161,13 +161,13 @@ Health Score:     65 / 100
 
 ---
 
-## 🔒 Privacy Note
+##  Privacy Note
 
 Movement patterns are personal data even without names. A real deployment needs clear signage at the store entrance, strict data retention limits, and no combining with loyalty card or payment data without explicit consent.
 
 ---
 
-## 📄 Full Documentation
+##  Full Documentation
 
 Every design decision — zone choice, dwell time logic, tracker tuning, health score formula, business insights, and honest limitations — is explained in `Retail_Project_Writeup.docx`.
 
