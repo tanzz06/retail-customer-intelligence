@@ -1,0 +1,16 @@
+# Large files — too big for GitHub
+output_annotated.mp4
+your_video.mp4
+yolo26n.pt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Mac system files
+.DS_Store
+.localized
